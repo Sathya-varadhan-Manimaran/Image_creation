@@ -28,6 +28,7 @@ class Checker:
 
     def show(self):
         plt.imshow(self.output, cmap='gray')
+        plt.axis('off')
         plt.show()
 
 
@@ -52,6 +53,7 @@ class Circle:
 
     def show(self):
         plt.imshow(self.output, cmap='gray')
+        plt.axis('off')
         plt.show()
 
 
@@ -71,4 +73,5 @@ class Spectrum:
 
     def show(self):
         plt.imshow(self.output, cmap='gray')
+        plt.axis('off')
         plt.show()
